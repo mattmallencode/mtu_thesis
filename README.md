@@ -30,16 +30,17 @@ This project introduces parameter-efficient approaches for domain adaptation of 
 
 Use the provided shell scripts to run experiments:
 
-- `run_finetune.sh`: Train a parameter-efficient RAG model
-- `run_eval.sh`: Evaluate a trained model
+- `finetune.sh`: Train a parameter-efficient RAG model
+- `eval.sh`: Evaluate a trained model
 
 ## Key Components
 
 - `peft_module.py`: PEFT integration for RAG
 - `process_dataset.py`: Stratified sampling implementation
-- `dpr_p_tuning.py`: Custom P-tuning v2 for DPR
+- `p_tuningv2.py`: Custom P-tuning v2 for DPR
 - `document_adapter.py`: Novel document adaptation approach
 - `eval.py`: Enhanced evaluation utilities
+- `finetune_rag.py`: Main training pipeline for parameter-efficient RAG fine-tuning
 
 ## Results
 
